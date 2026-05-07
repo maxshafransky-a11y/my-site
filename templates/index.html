@@ -10,12 +10,13 @@
             <div class="col-lg-6">
                 <h1 class="display-4 fw-bold mb-4 animate-fade-in">
                     Разработка веб-приложений<br>
-                    <span class="text-primary">и автоматизация</span>
+                    <span class="text-primary">и ИИ-автоматизация</span>
                 </h1>
-                <p class="lead mb-4 animate-fade-in-delay">
-                    Создаем современные веб-решения для вашего бизнеса. 
-                    От простых сайтов до сложных автоматизированных систем.
-                </p>
+                <ul class="lead hero-points mb-4 animate-fade-in-delay">
+                    <li>Экономим время и деньги за счет точечных внедрений.</li>
+                    <li>Убираем ручную рутину и сокращаем ошибки.</li>
+                    <li>Внедряем ИИ, чтобы команда работала быстрее и точнее.</li>
+                </ul>
                 <div class="animate-fade-in-delay-2">
                     <a href="{{ url_for('contact') }}" class="btn btn-primary btn-lg me-3">
                         <i class="bi bi-envelope"></i> Связаться с нами
@@ -34,29 +35,12 @@
     </div>
 </section>
 
-<!-- Описание -->
-<section class="py-5" style="background-color: var(--light-color);">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-                <h2 class="mb-4">О нас</h2>
-                <p class="lead">
-                    Мы специализируемся на разработке веб-приложений, автоматизации бизнес-процессов 
-                    и создании современных цифровых решений. Наш опыт позволяет реализовывать проекты 
-                    любой сложности - от простых сайтов до комплексных систем с искусственным интеллектом.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Кейсы на главной -->
 <section class="py-5">
     <div class="container">
         <div class="row mb-5">
             <div class="col-lg-8 mx-auto text-center">
                 <h2 class="mb-3">Наши кейсы</h2>
-                <p class="text-muted">Примеры реализованных проектов</p>
             </div>
         </div>
         <div class="row g-4">
@@ -96,4 +80,3 @@
     </div>
 </section>
 {% endblock %}
-
